@@ -13,7 +13,6 @@
 @interface SSUPAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) SSUPViewController *viewController;
 
 @end

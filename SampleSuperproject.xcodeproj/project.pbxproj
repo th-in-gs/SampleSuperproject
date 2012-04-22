@@ -15,7 +15,25 @@
 		7D4AD02B1544A8D6005F0FA2 /* SSUPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4AD02A1544A8D6005F0FA2 /* SSUPAppDelegate.m */; };
 		7D4AD02E1544A8D6005F0FA2 /* SSUPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4AD02D1544A8D6005F0FA2 /* SSUPViewController.m */; };
 		7D4AD0311544A8D6005F0FA2 /* SSUPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4AD02F1544A8D6005F0FA2 /* SSUPViewController.xib */; };
+		7D4AD0991544B695005F0FA2 /* libSampleSubproject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4AD03F1544AE7D005F0FA2 /* libSampleSubproject.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D4AD03E1544AE7D005F0FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4AD0371544AE7D005F0FA2 /* SampleSubproject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D4ACFF615440222005F0FA2;
+			remoteInfo = SampleSubproject;
+		};
+		7D4AD0451544AFF4005F0FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4AD0371544AE7D005F0FA2 /* SampleSubproject.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4ACFF515440222005F0FA2;
+			remoteInfo = SampleSubproject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7D4AD0161544A8D6005F0FA2 /* SampleSuperproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSuperproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +49,7 @@
 		7D4AD02C1544A8D6005F0FA2 /* SSUPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSUPViewController.h; sourceTree = "<group>"; };
 		7D4AD02D1544A8D6005F0FA2 /* SSUPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSUPViewController.m; sourceTree = "<group>"; };
 		7D4AD0301544A8D6005F0FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSUPViewController.xib; sourceTree = "<group>"; };
+		7D4AD0371544AE7D005F0FA2 /* SampleSubproject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleSubproject.xcodeproj; path = SampleSubproject/SampleSubproject.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4AD0991544B695005F0FA2 /* libSampleSubproject.a in Frameworks */,
 				7D4AD01B1544A8D6005F0FA2 /* UIKit.framework in Frameworks */,
 				7D4AD01D1544A8D6005F0FA2 /* Foundation.framework in Frameworks */,
 				7D4AD01F1544A8D6005F0FA2 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				7D4AD0201544A8D6005F0FA2 /* SampleSuperproject */,
+				7D4AD0371544AE7D005F0FA2 /* SampleSubproject.xcodeproj */,
 				7D4AD0191544A8D6005F0FA2 /* Frameworks */,
 				7D4AD0171544A8D6005F0FA2 /* Products */,
 			);
@@ -98,6 +119,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7D4AD0381544AE7D005F0FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4AD03F1544AE7D005F0FA2 /* libSampleSubproject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +141,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7D4AD0461544AFF4005F0FA2 /* PBXTargetDependency */,
 			);
 			name = SampleSuperproject;
 			productName = SampleSuperproject;
@@ -138,12 +168,28 @@
 			mainGroup = 7D4AD00B1544A8D6005F0FA2;
 			productRefGroup = 7D4AD0171544A8D6005F0FA2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7D4AD0381544AE7D005F0FA2 /* Products */;
+					ProjectRef = 7D4AD0371544AE7D005F0FA2 /* SampleSubproject.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7D4AD0151544A8D6005F0FA2 /* SampleSuperproject */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7D4AD03F1544AE7D005F0FA2 /* libSampleSubproject.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSampleSubproject.a;
+			remoteRef = 7D4AD03E1544AE7D005F0FA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7D4AD0141544A8D6005F0FA2 /* Resources */ = {
@@ -169,6 +215,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D4AD0461544AFF4005F0FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SampleSubproject;
+			targetProxy = 7D4AD0451544AFF4005F0FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7D4AD0231544A8D6005F0FA2 /* InfoPlist.strings */ = {
@@ -240,7 +294,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleSuperproject/SampleSuperproject-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+				);
 				INFOPLIST_FILE = "SampleSuperproject/SampleSuperproject-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,7 +313,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleSuperproject/SampleSuperproject-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+				);
 				INFOPLIST_FILE = "SampleSuperproject/SampleSuperproject-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +346,7 @@
 				7D4AD0361544A8D6005F0FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

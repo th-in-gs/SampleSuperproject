@@ -8,22 +8,23 @@
 
 #import "SSUPViewController.h"
 
-@interface SSUPViewController ()
+#import <SampleSubproject/SampleSubproject.h>
 
-@end
 
 @implementation SSUPViewController
 
+@synthesize label;
+
 - (void)viewDidLoad
 {
+    self.label.text = [[[SSHelloer alloc] init] hello];
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
 {
+    self.label = nil;
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
