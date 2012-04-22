@@ -22,13 +22,13 @@
 		7D4AD01A1544A8D6005F0FA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D4AD01C1544A8D6005F0FA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D4AD01E1544A8D6005F0FA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7D4AD0221544A8D6005F0FA2 /* SampleSuperproject-Info.plist */ = {isa = PBXFileReference; path = "SampleSuperproject-Info.plist"; sourceTree = "<group>"; };
+		7D4AD0221544A8D6005F0FA2 /* SampleSuperproject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleSuperproject-Info.plist"; sourceTree = "<group>"; };
 		7D4AD0241544A8D6005F0FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D4AD0261544A8D6005F0FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D4AD0281544A8D6005F0FA2 /* SampleSuperproject-Prefix.pch */ = {isa = PBXFileReference; path = "SampleSuperproject-Prefix.pch"; sourceTree = "<group>"; };
-		7D4AD0291544A8D6005F0FA2 /* SSUPAppDelegate.h */ = {isa = PBXFileReference; path = SSUPAppDelegate.h; sourceTree = "<group>"; };
+		7D4AD0281544A8D6005F0FA2 /* SampleSuperproject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleSuperproject-Prefix.pch"; sourceTree = "<group>"; };
+		7D4AD0291544A8D6005F0FA2 /* SSUPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSUPAppDelegate.h; sourceTree = "<group>"; };
 		7D4AD02A1544A8D6005F0FA2 /* SSUPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSUPAppDelegate.m; sourceTree = "<group>"; };
-		7D4AD02C1544A8D6005F0FA2 /* SSUPViewController.h */ = {isa = PBXFileReference; path = SSUPViewController.h; sourceTree = "<group>"; };
+		7D4AD02C1544A8D6005F0FA2 /* SSUPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSUPViewController.h; sourceTree = "<group>"; };
 		7D4AD02D1544A8D6005F0FA2 /* SSUPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSUPViewController.m; sourceTree = "<group>"; };
 		7D4AD0301544A8D6005F0FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSUPViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
