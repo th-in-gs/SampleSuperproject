@@ -1,0 +1,3 @@
+[submodule "SampleSubproject"]
+	path = SampleSubproject
+	url = git://github.com/th-in-gs/SampleSubproject.git
