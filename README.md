@@ -1,0 +1,1 @@
+This is a sample Xcode project containing a demo app that uses a static library contained in a sample subproject. It is a companion to the blog post at http://www.blog.montgomerie.net/easy-xcode-static-library-subprojects-and-submodules
